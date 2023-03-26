@@ -1,0 +1,67 @@
+.Banner-wrap {
+  .container {
+    .Banner-Presentation {
+      display: flex;
+
+      .Banner-Left {
+        height: 898px;
+        background-image: url("../../assets/img/baner-left.png");
+        max-width: 682px;
+        width: 100%;
+        height: 367;
+        background-repeat: no-repeat;
+
+        background-size: contain;
+        margin: 0 auto;
+        margin-right: 38px;
+
+        .Baner-info-lf {
+          max-width: 277px;
+          color: #fff;
+          margin-top: 109px;
+
+          h4 {
+            font-size: 36px;
+            font-weight: 400;
+            font-family: "Yellowtail", cursive;
+          }
+          h2 {
+            font-size: 40px;
+            font-weight: 800;
+            line-height: 46.88px;
+          }
+        }
+      }
+
+      .Banner-Right {
+        height: 898px;
+        background-image: url("../../assets/img/baner-right.png");
+        max-width: 682px;
+        width: 100%;
+        height: 367;
+        background-repeat: no-repeat;
+
+        background-size: contain;
+        margin: 0 auto;
+
+        .Baner-info-rg {
+          max-width: 277px;
+          margin-top: 109px;
+
+          h4 {
+            font-size: 36px;
+            font-weight: 400;
+            font-family: "Yellowtail", cursive;
+            color: #7eb693;
+          }
+          h2 {
+            font-size: 40px;
+            font-weight: 800;
+            line-height: 46.88px;
+            color: #274C5B;
+          }
+        }
+      }
+    }
+  }
+}
