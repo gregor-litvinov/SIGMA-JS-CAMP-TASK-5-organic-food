@@ -1,0 +1,115 @@
+// .destination {
+//   margin: 5rem 0;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: #274C5B;;
+
+//   .subtitle {
+//     margin-bottom: 10px;
+//     color: #7EB693;
+//     font-family: 'Yellowtail';
+// font-style: normal;
+// font-weight: 400;
+// font-size: 36px;
+// line-height: 49px;
+//   }
+// }
+
+// .destination .title {
+// font-family: 'Roboto';
+// font-style: normal;
+// font-weight: 800;
+// font-size: 50px;
+// line-height: 59px;
+// /* identical to box height */
+
+
+// color: #FFFFFF;
+
+// }
+
+// .destination .cards {
+//   display: flex;
+//   justify-content: space-between;
+//   width: 100%;
+//   .card {
+//     width: 335px;
+//     height: 483px;
+//     background-color: #F9F8F8;;
+//   }
+// }
+
+// .content-wrapper {
+//   position: absolute;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   background-color: #fff;
+//   padding: 15px 35px 61px 35px;
+//   border-radius: 0 0 36px 36px;
+// }
+
+// .cards-wrapper {
+//   display: grid;
+//   width: 100%;
+//   max-width: 1024px;
+// }
+
+// .destination .cards .content {
+//   display: flex;
+//   justify-content: space-between;
+//   margin: 8px 0;
+//   margin-bottom: 12px;
+// }
+
+// .destination .cards .time {
+//   display: flex;
+//   position: relative;
+//   padding-left: 32px;
+//   // &:after {
+//   //   content: "";
+//   //   position: absolute;
+//   //   left: 0;
+//   //   top: 0;
+//   //   width: 20px;
+//   //   height: 20px;
+//   //   background-image: url("../img/navigation\ 1.svg");
+//   //   background-repeat: no-repeat;
+//   //   background-size: auto;
+//   // }
+// }
+
+// .destination .cards .card {
+//   position: relative;
+//   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+//   border-radius: 36px;
+//   overflow: hidden;
+// }
+
+// @media screen and (min-width: 360px) and (max-width: 480px) {
+//   .destination .cards {
+//     flex-direction: column;
+//   }
+// }
+
+// @media screen and (min-width: 481px) and (max-width: 768px) {
+//   .destination .cards {
+//     flex-direction: column;
+//     align-items: center;
+//     .card {
+//       margin-bottom: 25px;
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 769px) and (max-width: 1024px) {
+//   .destination .cards .card {
+//     width: 30%;
+//   }
+
+//   .cards-wrapper {
+//     display: block;
+//   }
+// }

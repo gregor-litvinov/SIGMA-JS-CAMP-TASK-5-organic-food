@@ -1,13 +1,30 @@
-.myBtn {
-  padding: 5px 15px;
-  color: #274c5b;
-  font-size: 20px;
-  font-weight: 700;
-  background: transparent;
-  // border: 1px solid teal;
-  cursor: pointer;
-  font-family: 'Roboto';
-  line-height: 23px;
+// .myBtn {
+//   padding: 5px 15px;
+//   color: #274c5b;
+//   font-size: 20px;
+//   font-weight: 700;
+//   background: transparent;
+//   // border: 1px solid teal;
+//   cursor: pointer;
+//   font-family: 'Roboto';
+//   line-height: 23px;
 
 
+// }
+
+.btn {
+    width: 220px;
+        height: 79px;
+        background: #EFD372;
+        border-radius: 16px;
+        color: #274c5b;
+        font-size: 20px;
+        font-weight: 700;
+
+        &.dark {
+          background: #274C5B;
+          color: #FFF;
+        }
 }
+
+

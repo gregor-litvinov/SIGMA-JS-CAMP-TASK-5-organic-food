@@ -1,0 +1,157 @@
+
+
+.offer-wrap {
+ height: 1050px;
+
+ background-color: #274C5B;;
+  .container {
+
+    .offer-title {
+
+      h4 {
+        color: #7EB693;
+        font-family: 'Yellowtail';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 49px;
+      }
+      h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 59px;
+        color: #FFFFFF;
+      }
+    }
+    .offer-cards {
+      position: relative;
+      display: flex;
+          margin-top: 80px;
+
+      .offer-card {
+        border-radius: 30px;
+        width: 335px;
+        height: 483px;
+        background-color: #FFFFFF;
+            margin-left: 28px;
+
+        &::after {
+position: absolute;
+    content: "";
+    height: 2px;
+    width: 330px;
+    background-color: #c4c4c4;
+
+        bottom: 40px;
+    transform: translateX(-50%);
+}
+
+
+        .card-title {
+              position: relative;
+          .card-title-wrap {
+            border-radius: 12px;
+                top: 20px;
+                position: absolute;
+                  left: 23px;
+              width: 96px;
+              height: 31px;
+              background-color: #274C5B;
+            h4 {
+              color: #FFFFFF;
+              font-family: 'Open Sans';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 15px;
+              line-height: 20px;
+              text-align: center;
+              padding: 5px;
+
+            }
+          }
+        }
+        .card-image {
+                padding-bottom: 26px;
+    padding-top: 50px;
+          img {
+
+          }
+        }
+        .card-inform {
+          padding: 14px;
+
+          .card-info-name {
+                display: flex;
+// &::before {
+// position: absolute;
+//     content: "";
+//     height: 2px;
+//     width: 330px;
+//     background-color: #c4c4c4;
+
+//     left: 209px;
+//     transform: translateX(-50%);
+// }
+
+            h4 {
+                font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #274C5B;
+            }
+
+          }
+          .card-info-price {
+            display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+            .stars {
+              font-size: 10px;
+                    color: #FFA858;
+
+              .star {
+                display: inline-block;
+                margin-right: 5px;
+              }
+            }
+            .price {
+                  display: flex;
+                  .price-normal {
+                    h4 {
+                      font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+text-align: center;
+
+color: #274C5B;
+                    }
+                  }
+                  .price-sale {
+                    h5 {
+                      font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+text-decoration: line-through;
+color: #B8B8B8;
+                    }
+                  }
+            }
+          }
+        }
+      }
+    }
+  }
+}

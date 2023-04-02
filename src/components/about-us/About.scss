@@ -1,0 +1,100 @@
+.about-us {
+  background-color: #f9f8f8;
+
+  .container {
+    .about-us-container {
+      background-color: #f9f8f8;
+      display: flex;
+
+      .about-us-image {
+        width: 51%;
+        img {
+
+        width: 1067px;
+        }
+
+      }
+      .about-us-inform {
+        width: 40%;
+        .about-us-inform-title {
+          h4 {
+              font-size: 36px;
+            font-weight: 400;
+            font-family: "Yellowtail", cursive;
+            color: #7eb693;
+
+          }
+          h2 {
+            font-size: 40px;
+            font-weight: 800;
+            line-height: 46.88px;
+            color: #274c5b;
+          }
+
+          p {
+            font-size: 18px;
+            font-weight: 400px;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 29.77px;
+            color: #525C60;
+
+          }
+
+        }
+        .about-us-inform-quality {
+          .quality-wrapper {
+            .quality-block1 {
+              display: flex;
+              .block1-image {
+                img {
+
+                }
+              }
+              .block1-text {
+                h4 {
+                  font-weight: 800;
+                  font-size: 25px;
+                  line-height: 29px;
+
+                }
+                p {
+            font-size: 18px;
+            font-weight: 400px;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 29.77px;
+            color: #525C60;
+
+                }
+              }
+            }
+            .quality-block2 {
+              display: flex;
+              .block1-image {
+                img {
+
+                }
+              }
+              .block1-text {
+                h4 {
+                  font-weight: 800;
+                  font-size: 25px;
+                  line-height: 29px;
+
+                }
+                p {
+            font-size: 18px;
+            font-weight: 400px;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 29.77px;
+            color: #525C60;
+
+                }
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
