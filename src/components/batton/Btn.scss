@@ -25,6 +25,20 @@
           background: #274C5B;
           color: #FFF;
         }
+
+        &.white {
+          width: 312px;
+          height: 96px;
+          background-color: #FFFFFF;
+          border-radius: 16px;
+          color: #274C5B;
+              border: none;
+        }
+
+        &.news {
+          background: #FFFFFF;
+          color: #274C5B;
+        }
 }
 
 
