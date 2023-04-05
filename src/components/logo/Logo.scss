@@ -1,0 +1,21 @@
+    .logo-container {
+      margin-right: auto;
+
+        .logo {
+              max-width: 100%;
+              height: auto;
+            }
+            span {
+
+              font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 45px;
+color: #274C5B;
+:first-letter {
+  text-transform: uppercase;
+}
+            }
+
+}

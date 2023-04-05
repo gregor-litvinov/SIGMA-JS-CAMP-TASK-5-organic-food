@@ -1,6 +1,6 @@
 import "../nav/nav.scss";
-import logoImage from "../../assets/img/LogoNav.png";
-import { menu} from './menu'
+import { menu} from './menu';
+import Logo from '../logo/Logo';
 
 
 function Nav() {
@@ -8,10 +8,7 @@ function Nav() {
     <>
       <div className="container">
         <div className="navigation-container">
-          <div className="logo-container">
-            <img src={logoImage} alt="logo" className="logo" />
-            <span>Organick</span>
-          </div>
+            <Logo/>
           <div className="navigation-items-container">
             <ul className="navigation-items">
               {menu.map((item, idx) => (

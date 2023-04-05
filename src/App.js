@@ -10,6 +10,8 @@ import Frendly from './components/frendly-block/Frendly';
 import InfoProduct from './components/product-info/Product-info';
 import News from './components/news/News';
 import Subscribe from './components/subscribe/Subscribe';
+import Footer from './components/footer/Footer';
+
 
 
 
@@ -26,6 +28,8 @@ function App() {
       <InfoProduct />
       <News />
       <Subscribe />
+      <Footer />
+
     </div>
   );
 }
