@@ -47,7 +47,6 @@ function Neo() {
                     </div>
                 </div>
             </div>
-
             <div className="offer-card">
                 <div className="card-title">
                   <div className="card-title-wrap">
@@ -83,8 +82,7 @@ function Neo() {
                     </div>
                 </div>
             </div>
-
-                        <div className="offer-card">
+            <div className="offer-card">
                 <div className="card-title">
                   <div className="card-title-wrap">
                     <h4>Vegetable</h4>
@@ -119,8 +117,7 @@ function Neo() {
                     </div>
                 </div>
             </div>
-
-                        <div className="offer-card">
+              <div className="offer-card">
                 <div className="card-title">
                   <div className="card-title-wrap">
                     <h4>Vegetable</h4>
@@ -135,7 +132,6 @@ function Neo() {
                     </div>
                     <div className="card-info-price">
                       <div className="price">
-
                         <div className="price-sale">
                           <h5>$20.00</h5>
                         </div>
@@ -144,18 +140,15 @@ function Neo() {
                         </div>
                       </div>
                       <div className="stars">
-
                 <span class="star">&#9733;</span>
                 <span class="star">&#9733;</span>
                 <span class="star">&#9733;</span>
                 <span class="star">&#9733;</span>
                 <span class="star">&#9733;</span>
-
                       </div>
                     </div>
                 </div>
             </div>
-
           </div>
         </div>
       </div>

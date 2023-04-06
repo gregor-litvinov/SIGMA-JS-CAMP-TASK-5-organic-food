@@ -3,6 +3,7 @@ import { menu} from './menu';
 import Logo from '../logo/Logo';
 
 
+
 function Nav() {
   return (
     <>
@@ -22,12 +23,7 @@ function Nav() {
             <div className="search-container">
               <input
                 type="text"
-                // placeholder="Поиск товаров"
-                className="search-input"
-              />
-              <div>
-                <i></i>
-              </div>
+                className="search-input"/>
               <button className="search-button">
                 <svg
                   width="22"
@@ -43,10 +39,6 @@ function Nav() {
                 </svg>
               </button>
             </div>
-            {/* <div className="cart-container">
-              <img src="cart.png" alt="cart" className="cart-icon" />
-              <span className="cart-count">0</span>
-            </div> */}
           </div>
         </div>
       </div>

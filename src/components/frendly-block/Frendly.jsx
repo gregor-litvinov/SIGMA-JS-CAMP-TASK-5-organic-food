@@ -7,7 +7,6 @@ function Frendly() {
   return (
     <>
      <div className="frendly-wrap">
-
         <div className="frandly-container">
             <div className="frendly-image">
               <img src={Image} alt="" />
@@ -22,8 +21,7 @@ function Frendly() {
               <div className="frendly-info-content">
                 <div className="frendly-info-content block1">
                   <h2>Start with Our Company First</h2>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
-</p>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.</p>
                 </div>
                 <div className="frendly-info-content block2">
                   <h2>Learn How to Grow Yourself</h2>
@@ -34,14 +32,10 @@ function Frendly() {
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.</p>
                 </div>
               </div>
-                </div>
-
-        </div>
+              </div>
+            </div>
            </div>
-
         </div>
-
-
      </div>
     </>
   );

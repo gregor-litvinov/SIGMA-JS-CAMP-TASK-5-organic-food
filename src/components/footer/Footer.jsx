@@ -10,8 +10,8 @@ import socialIkon from '../../assets/img/social.png';
 function Footer() {
   return (
     <>
-            <div className="footer">
-        <div className="container">
+      <div className="footer">
+      <div className="container">
           <div className="footer-wrapper">
           <div class="contacts">
            <div class="title">Contact Us</div>
@@ -70,7 +70,6 @@ Lorem Ipsum simply dummy text of the printing </p>
             <div className="footer-bottom-text">
               <p>Copyright © <span>Organick</span> | Designed by <span>VictorFlow</span> Templates - Powered by <span>Webflow</span></p>
             </div>
-
           </div>
         </div>
       </div>

@@ -11,19 +11,16 @@ function InfoProduct() {
             <div className="bl-wrap">
                   <MyButton variant="white">Organic Juice</MyButton>
             </div>
-
           </div>
           <div className="InfoProduct-bl center">
             <div className="bl-wrap">
                <MyButton variant="white">Organic Food</MyButton>
             </div>
-
           </div>
           <div className="InfoProduct-bl right">
             <div className="bl-wrap">
                 <MyButton variant="white">Nuts Cookis</MyButton>
             </div>
-
           </div>
         </div>
       </div>

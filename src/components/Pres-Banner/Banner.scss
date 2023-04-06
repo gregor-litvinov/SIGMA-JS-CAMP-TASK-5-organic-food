@@ -2,15 +2,12 @@
   .container {
     .Banner-Presentation {
       display: flex;
-
       .Banner-Left {
-        // height: 898px;
         background-image: url("../../assets/img/baner-left.png");
         max-width: 682px;
         width: 100%;
         height: 367;
         background-repeat: no-repeat;
-
         background-size: contain;
         margin: 0 auto;
         margin-right: 38px;
@@ -34,13 +31,11 @@
       }
 
       .Banner-Right {
-        // height: 898px;
         background-image: url("../../assets/img/baner-right.png");
         max-width: 682px;
         width: 100%;
         height: 367;
         background-repeat: no-repeat;
-
         background-size: contain;
         margin: 0 auto;
 

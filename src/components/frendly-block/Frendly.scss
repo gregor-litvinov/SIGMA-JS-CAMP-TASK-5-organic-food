@@ -2,59 +2,49 @@
 
 .frendly-wrap {
 
-
-
     .frandly-container {
       display: flex;
 
       .frendly-image {
         z-index: 0;
-
       }
 
       .frendly-info-wrap {
-            position: relative;
-    display: flex;
-    /* background-color: #FFFFFF; */
-    margin-top: 100px;
+        position: relative;
+        display: flex;
+        margin-top: 100px;
 
         .frendly-info {
           position: absolute;
-    display: flex;
-    flex-direction: column;
-    width: 789px;
-    padding: 20px 0;
-    z-index: 1;
-    /* right: -73px; */
-    left: -91px;
-    background-color: #FFFFFF;
+          display: flex;
+          flex-direction: column;
+          width: 789px;
+          padding: 20px 0;
+          z-index: 1;
+          left: -91px;
+          background-color: #FFFFFF;
 
             .frendly-info-flex {
               max-width: 700px;
-                  padding-left: 100px;
+              padding-left: 100px;
 
               .frendly-info-title {
-          h4 {
-            font-family: 'Yellowtail';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 49px;
-/* identical to box height */
-
-
-color: #7EB693;
-
-          }
-          h2 {
-            font-family: 'Roboto';
-font-style: normal;
-font-weight: 800;
-font-size: 50px;
-line-height: 59px;
-
-color: #274C5B;
-          }
+                 h4 {
+                    font-family: 'Yellowtail';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 36px;
+                    line-height: 49px;
+                    color: #7EB693;
+                     }
+                 h2 {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 50px;
+                    line-height: 59px;
+                    color: #274C5B;
+                              }
 
         }
               .frendly-info-content {
@@ -64,25 +54,21 @@ color: #274C5B;
                   text-align: start;
                   h2 {
                     font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 29px;
-
-color: #274C5B;
-                  }
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 29px;
+                    color: #274C5B;
+                                      }
                   p {
 
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 165.4%;
-/* or 30px */
-
-
-color: #525C60;
-                  }
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 165.4%;
+                    color: #525C60;
+                                      }
                 }
 
                 .block2 {
@@ -94,11 +80,8 @@ color: #525C60;
                 }
               }
             }
-
-
-      }
-      }
-
+            }
+          }
     }
 
 }

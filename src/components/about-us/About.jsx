@@ -1,9 +1,8 @@
 import "./About.scss";
 import MyButton from "../batton/Btn";
-import aboutImg from '../../img/About-us-foto.png';
-import aboutIkon from "/Users/user/Desktop/SIGMA TRAINE/task-5-Final/task-final/my-app/src/assets/img/Icon.png";
-import aboutIcon2 from '/Users/user/Desktop/SIGMA TRAINE/task-5-Final/task-final/my-app/src/assets/img/About-us-icon2.png'
-
+import aboutIkon from "../../assets/img/Icon.png";
+import aboutIcon2 from '../../assets/img/About-us-icon2.png';
+import aboutImage from '../../assets/img/About-us-foto.png';
 
 function About() {
   return (
@@ -12,7 +11,7 @@ function About() {
         <div className="container">
           <div className="about-us-container">
             <div className="about-us-image">
-              <img src={aboutImg} alt="" />
+              <img src={aboutImage} alt="" />
             </div>
             <div className="about-us-inform">
               <div className="about-us-inform-title">

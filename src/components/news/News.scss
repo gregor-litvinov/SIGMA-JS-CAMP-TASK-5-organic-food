@@ -8,34 +8,29 @@
         display: flex;
         justify-content: space-between;
 
-    .news-header-title {
-      max-width: 702px;
+        .news-header-title {
+         max-width: 702px;
 
-      h4 {
+        h4 {
         font-family: 'Yellowtail';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 49px;
-/* identical to box height */
-display: flex;
-
-color: #7EB693;
-      }
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 49px;
+        display: flex;
+        color: #7EB693;
+              }
       h2 {
         font-family: 'Roboto';
-font-style: normal;
-font-weight: 800;
-font-size: 50px;
-line-height: 59px;
-
-color: #274C5B;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 59px;
+        color: #274C5B;
+              }
       }
     }
   }
-  }
-
-
 
   .news-paper-wrap {
           display: flex;
@@ -44,79 +39,68 @@ color: #274C5B;
     .news-paper-block{
       max-width: 677px;
       height: 524px;
-
-        border-radius: 15px;
-
-
-
-
-
+      border-radius: 15px;
 
         .news-paper-block-data {
           display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
           width: 82px;
           height: 82px;
           border-radius: 50%;
           background-color: #FFFFFF;
-              margin-left: 32px;
-                  margin-top: 25px;
-                  // z-index: 1;
+          margin-left: 32px;
+          margin-top: 25px;
+
                   .st {
                     font-family: 'Roboto';
-font-style: normal;
-font-weight: 800;
-font-size: 25px;
-line-height: 29px;
-text-align: center;
-
-color: #274C5B;
-                  }
-        }
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 25px;
+                    line-height: 29px;
+                    text-align: center;
+                    color: #274C5B;
+                                      }
+         }
 
 
       .news-block-wrap {
-                  background-color: #FFFFFF;
+          background-color: #FFFFFF;
           z-index: 1;
           max-width: 600px;
           height: 396px;
           margin-left: 32px;
           margin-top: 138px;
           box-shadow: 0px 20px 35px rgba(167, 167, 167, 0.25);
-border-radius: 31px 34px 30px 30px;
+          border-radius: 31px 34px 30px 30px;
 
         .news-block-wrap-content {
           padding: 75px 54px;
-                      max-width: 499px;
-    text-align: revert;
+          max-width: 499px;
+          text-align: revert;
 
           .paper {
             margin-top: 10px;
             h2 {
               margin-top: 10px;
               font-family: 'Roboto';
-font-style: normal;
-font-weight: 800;
-font-size: 25px;
-line-height: 29px;
+              font-style: normal;
+              font-weight: 800;
+              font-size: 25px;
+              line-height: 29px;
+              color: #274C5B;
 
-color: #274C5B;
-
-            }
+                          }
             p {
               margin-top: 10px;
               margin-bottom: 30px;
               font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 165.4%;
-/* or 30px */
-
-
-color: #525C60;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 165.4%;
+              color: #525C60;
             }
           }
         }

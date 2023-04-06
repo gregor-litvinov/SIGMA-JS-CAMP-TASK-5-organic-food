@@ -1,30 +1,18 @@
 
 
 .subscribe {
-
-             width: 100%;
+        width: 100%;
         max-width: 1400px;
         height: 323px;
-
         background-repeat: no-repeat;
-
         background-size: contain;
         margin-top: 230px;
-
-          background-image: url("../../assets/img/subscribe.png");
-              display: flex;
-    justify-content: space-between;
-    align-items: center;
+        background-image: url("../../assets/img/subscribe.png");
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         padding: 30px;
-  // padding: 0 70px;
-  // padding-top: 75px;
-  // height: 25rem;
-  // display: flex;
-  // align-items: center;
-  // flex-direction: column;
-  // background-image: linear-gradient(-225deg, #b6cee86e 0%, #8578f563 100%);
-  // border-radius: 5rem 1rem 1rem 1rem;
-}
+        }
 
 .contact {
   display: flex;
@@ -37,7 +25,6 @@
       top: 16px;
       width: 27px;
       height: 25px;
-      // background-image: url("../img/input.svg");
       background-repeat: no-repeat;
       background-position: 5px 5px;
     }
@@ -45,24 +32,24 @@
 }
 
 .subscribe .title {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 800;
-font-size: 50px;
-line-height: 59px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
     max-width: 357px;
-color: #FFFFFF;
-}
+    color: #FFFFFF;
+    }
 
 .subscribe input {
-  position: relative;
-  border: none;
-  width: 421px;
-  border-radius: 10px;
-  padding: 25px 30px 25px 70px;
-  box-sizing: border-box;
-  margin-right: 1rem;
-}
+    position: relative;
+    border: none;
+    width: 421px;
+    border-radius: 10px;
+    padding: 25px 30px 25px 70px;
+    box-sizing: border-box;
+    margin-right: 1rem;
+  }
 
 .subscribe input:focus {
   outline: none;

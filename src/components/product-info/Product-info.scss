@@ -7,22 +7,20 @@
     display: flex;
 
     .InfoProduct-bl {
-             width: 100%;
+        width: 100%;
         max-width: 612px;
         height: 583px;
-
         background-repeat: no-repeat;
-
         background-size: contain;
         margin: 0 auto;
         margin-right: 38px;
 
         .bl-wrap {
-height: 32em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-        }
+          height: 32em;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+              }
 
     }
     .left {

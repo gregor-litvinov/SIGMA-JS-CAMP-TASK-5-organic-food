@@ -1,7 +1,5 @@
 import './Testimonial.scss';
-import Avatar from '/Users/user/Desktop/SIGMA TRAINE/task-5-Final/task-final/my-app/src/assets/img/avatar.png';
-
-
+import Avatar from '../../assets/img/avatar.png';
 
 
 function Testimonial() {
@@ -26,18 +24,14 @@ function Testimonial() {
                 <span class="star">&#9733;</span>
                 <span class="star">&#9733;</span>
               </div>
-
-
                 <p>Simply dummy text of the printing and typesetting industry.
                    Lorem Ipsum simply dummy text of the printing and typesetting industry.
                   Lorem Ipsum has been.</p>
                 <div className="Testimonial-content-wrap-name">
-                                  <h2>Sara Taylor</h2>
-                <p>Consumer</p>
+                  <h2>Sara Taylor</h2>
+                  <p>Consumer</p>
                 </div>
               </div>
-
-
             </div>
             <div className="line"></div>
            <div className="Testimonial-charts">
@@ -47,15 +41,12 @@ function Testimonial() {
                     <h4>100%</h4>
                   <p>Organic</p>
                   </div>
-
                 </div>
                  <div className="Testimonial-charts-bl">
                   <div className="border-wrap">
-
-                      <h4>285</h4>
+                  <h4>285</h4>
                   <p>Active Product</p>
                   </div>
-
                 </div>
                   <div className="Testimonial-charts-bl">
                   <div className="border-wrap">
@@ -68,10 +59,7 @@ function Testimonial() {
                      <h4>25+</h4>
                   <p>Years of Farming</p>
                     </div>
-
                 </div>
-
-
               </div>
             </div>
           </div>
