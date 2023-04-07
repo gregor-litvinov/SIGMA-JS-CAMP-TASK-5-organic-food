@@ -1,0 +1,29 @@
+.thank-banner {
+    background-image: url('../../assets/img/success.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 82px;
+    color: #274C5B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success {
+    h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 82px;
+        color: #274C5B;
+        text-align: center;
+        display: block;
+        padding: 40px;
+    }
+}

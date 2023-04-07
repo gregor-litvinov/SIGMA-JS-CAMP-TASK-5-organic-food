@@ -1,5 +1,5 @@
 import "../header/Presentation.scss";
-import MyButton from "../batton/Btn";
+import MyButton from "../button/Btn";
 
 function Presentation() {
   return (

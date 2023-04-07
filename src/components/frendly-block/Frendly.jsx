@@ -1,5 +1,5 @@
 
-import Image from '../../assets/img/Frendly-Photo.png';
+
 import './Frendly.scss';
 
 
@@ -7,9 +7,10 @@ function Frendly() {
   return (
     <>
      <div className="frendly-wrap">
+
         <div className="frandly-container">
             <div className="frendly-image">
-              <img src={Image} alt="" />
+
            </div>
            <div className="frendly-info-wrap">
               <div className="frendly-info">

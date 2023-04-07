@@ -1,12 +1,15 @@
+import {useNavigate} from 'react-router-dom';
+
 import "../nav/nav.scss";
 import { menu} from './menu';
 import Logo from '../logo/Logo';
 
 
 
-function Nav() {
+function Nav({cartState}) {
+  const navigate = useNavigate();
   return (
-    <>
+    <div onClick={() => navigate('/cart')}>
       <div className="container">
         <div className="navigation-container">
             <Logo/>
@@ -40,9 +43,13 @@ function Nav() {
               </button>
             </div>
           </div>
+          <div className="cart-icon-wrapper">
+            <div className="cart-icon"></div>
+            <div className="cart-value">Cart <span className={cartState.length ? 'active' : ''}>({cartState.length})</span></div>
+          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

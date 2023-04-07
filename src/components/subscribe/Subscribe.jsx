@@ -1,4 +1,4 @@
-import MyButton from "../batton/Btn";
+import MyButton from "../button/Btn";
 import './Subscribe.scss';
 
 

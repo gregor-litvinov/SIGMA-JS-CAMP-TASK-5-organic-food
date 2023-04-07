@@ -1,0 +1,238 @@
+.banner {
+    background-image: url('../../assets/img/cart-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 82px;
+    color: #274C5B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart {
+    padding: 80px 45px;
+    background: rgba(253, 176, 45, 0.16);
+
+    .product-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .content {
+            align-items: center;
+            display: flex;
+            .image {
+                overflow: hidden;
+                background: #F9F8F8;
+                border-radius: 30px;
+                margin-right: 40px;
+                img {
+                    width: 292px;
+                }
+            }
+            .title {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 47px;
+                color: #274C5B;
+                margin-right: 20px;
+            }
+
+            .card-info-price {
+                display: flex;
+                justify-content: space-between;
+                .stars {
+                  font-size: 10px;
+                        color: #FFA858;
+    
+                  .star {
+                    display: inline-block;
+                    margin-right: 5px;
+                  }
+                }
+                .price {
+                      display: flex;
+                      .price-normal {
+                        h4 {
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 40px;
+                            line-height: 47px;
+                                              }
+                      }
+                      .price-sale {
+                        h5 {
+                        margin-top: 19px;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 25px;
+                        text-align: center;
+                          margin-right: 6px;
+                          text-align: center;
+                          text-decoration: line-through;
+                          color: #B8B8B8;
+                                              }
+                      }
+                }
+              }
+        }
+
+        .quantity-wrapper {
+            display: flex;
+            align-items: center;
+                  .purchase-info {
+        align-items: center;
+        padding-top: 35px;
+        display: flex;
+
+        label {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 23px;
+          color: #274C5B;
+          margin-right: 15px;
+        }
+
+        input {
+          margin-right: 15px;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          width: 134px;
+          height: 80px;
+          background: #FFFFFF;
+          border: 2px solid #274C5B;
+          border-radius: 16px;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 23px;
+
+          color: #274C5B;
+        }
+
+        .add-to-cart {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 28px 39px 29px;
+          gap: 10px;
+
+          width: 213px;
+          height: 80px;
+
+          background: #274C5B;
+          border-radius: 16px;  
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 23px;
+          cursor: pointer;
+          color: #FFFFFF;
+        }
+      }
+        }
+    }
+}
+
+.remove-item {
+    border: 0;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 64px;
+    height: 46px;
+    background: #274C5B;
+    border-radius: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.total-wrapper {
+    margin-right: 170px;
+    display: flex;
+    margin-top: 50px;
+    text-align: end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #274C5B;
+}
+
+.cart-form {
+    margin-top: 65px;
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .field {
+            margin-bottom: 25px;
+            text-align: left;
+            label {
+                display: block;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 21px;
+                color: #274C5B;
+                margin-bottom: 20px;
+            }
+            input, textarea {
+                display: block;
+                min-width: 569px;
+                height: 80px;
+                font-family: 'Roboto';
+                font-style: italic;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                color: #ABABAB;
+                background: #FFFFFF;
+                border: 1px solid #7EB693;
+                border-radius: 16px;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+
+            textarea {
+                max-width: 1184px;
+            }
+        }
+    }
+}
+
+.confirm {
+    width: 220px;
+    height: 72px;
+    background: #274C5B;
+    border-radius: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}

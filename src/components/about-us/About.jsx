@@ -1,5 +1,5 @@
 import "./About.scss";
-import MyButton from "../batton/Btn";
+import MyButton from "../button/Btn";
 import aboutIkon from "../../assets/img/Icon.png";
 import aboutIcon2 from '../../assets/img/About-us-icon2.png';
 import aboutImage from '../../assets/img/About-us-foto.png';

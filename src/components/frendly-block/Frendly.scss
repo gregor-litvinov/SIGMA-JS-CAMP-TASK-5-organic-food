@@ -3,19 +3,24 @@
 .frendly-wrap {
 
     .frandly-container {
+      justify-content: end;
       display: flex;
+      background-image: url('../../assets/img/Frendly-Photo.png');
+        background-repeat: no-repeat;
 
       .frendly-image {
+
         z-index: 0;
       }
 
       .frendly-info-wrap {
-        position: relative;
         display: flex;
+        position: relative;
         margin-top: 100px;
+      
 
         .frendly-info {
-          position: absolute;
+
           display: flex;
           flex-direction: column;
           width: 789px;

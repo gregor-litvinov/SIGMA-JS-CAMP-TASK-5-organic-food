@@ -1,31 +1,37 @@
+import React from 'react';
 
 
 
-function Card() {
+function Card({data, onClick}) {
+  const {name, price, discount, image} = data;
+
   return (
     <>
-            <div className="offer-card">
+            <div className="offer-card" onClick={onClick}>
                 <div className="card-title">
                   <div className="card-title-wrap">
                     <h4>Vegetable</h4>
                   </div>
                 </div>
                 <div className="card-image">
-                  <img src={imgBean} alt="" />
+                  <img src={image} alt="name" />
                 </div>
                 <div className="card-inform">
                     <div className="card-info-name">
-                     <h4>Mung Bean</h4>
+                     <h4>{name}</h4>
                     </div>
                     <div className="card-info-price">
                       <div className="price">
-
                         <div className="price-sale">
-                          <h5>$20.00</h5>
+                          <h5>${price}</h5>
                         </div>
-                        <div className="price-normal">
-                          <h4>$11.00</h4>
-                        </div>
+                        <>
+                        {discount ? (
+                          <div className="price-normal">
+                            <h4>${price - (price * (discount / 100))}</h4>
+                          </div>
+                        ) : null}
+                        </>
                       </div>
                       <div className="stars">
 
